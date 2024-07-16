@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+.container{
+    @apply  max-w-[90%] mt-24 mx-auto
+}
+input:checked ~ .dot {
+        transform: translateX(100%);
+        }}
+body{
+    background-color: #eee;
+}
