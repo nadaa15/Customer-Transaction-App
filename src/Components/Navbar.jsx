@@ -15,15 +15,15 @@ export default function Navbar() {
     <>
       <nav className="bg-violet-300 border-gray-200 dark:bg-violet-900 z-40 fixed top-0 left-0 right-0 shadow">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <div className="flex items-center space-x-3 rtl:space-x-reverse ms-7 lg:ms-0">
-            <Link to=
-            '/'>
+            <Link
+              to="/"
+              className="flex items-center space-x-3 rtl:space-x-reverse ms-7 lg:ms-0"
+            >
               <img src={logo} className="h-8" alt="Logo" />
               <span className="self-center text-base lg:text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Transaction
               </span>
             </Link>
-          </div>
           <div className="flex justify-center items-center gap-2 lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
             <div className="flex flex-col md:flex-row justify-center items-center ">
               <p className="self-center md:me-2 order-2 md:-order-1 font-semibold text-xs md:text-base dark:text-white">
