@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/images/transaction.png";
 import avatar from "../assets/images/avatar.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [dark, setDark] = React.useState(false);
