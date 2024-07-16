@@ -13,4 +13,4 @@ This is a React application that displays customer and transaction data retrieve
 - Toggle between light and dark mode.
 
 ## For live demo please click the link below:
-<https://github.com/nadaa15/Customer-Transaction-App>
+<https://nadaa15.github.io/Customer-Transaction-App/>
