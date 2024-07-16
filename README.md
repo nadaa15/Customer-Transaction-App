@@ -1,8 +1,16 @@
-# React + Vite
+# Customer Transactions Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a React application that displays customer and transaction data retrieved from a provided API endpoint. The application includes features such as filtering the table by customer name or transaction amount and displaying a graph of total transaction amounts per day for the selected customer. It also supports dark mode using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Display a table with a list of customers and their transaction data.
+- Filter the table by customer name.
+- Filter the table by transaction amount.
+- Display a graph showing the total transaction amount per day for the selected customer.
+- Toggle between light and dark mode.
+
+## For live demo please click the link below:
+<https://nadaa15.github.io/Customer-Transaction-App/>
