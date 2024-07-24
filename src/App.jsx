@@ -1,13 +1,14 @@
 import "./App.css";
 import CustomerTable from "./Components/CustomerTable";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import CustomerTransaction from "./Components/CustomerTransaction";
 import Layout from "./Components/Layout";
 import CustomerContextProvider from "./Contexts/CustomerContext";
 import NotFound from "./Components/NotFound";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
-  let router = createBrowserRouter([
+  let router = createHashRouter([
     {
       path: "",
       element: <Layout />,
